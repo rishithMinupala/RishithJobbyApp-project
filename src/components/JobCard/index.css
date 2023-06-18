@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+
+.jobcard-link {
+  text-decoration: none;
+}
+.card {
+  background-color: #202020;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-width: 0px;
+  border-radius: 11px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-company {
+  margin-left: 18px;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+}
+.title-cont {
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+}
+.rating-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 3px;
+}
+.star {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.rating {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.job-details-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.ul-cont {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  padding-left: 18px;
+  margin-top: 1px;
+}
+
+.details-li {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  align-items: center;
+  margin-right: 18px;
+}
+.location {
+  font-size: 22px;
+  margin-right: 4px;
+}
+
+.location-2 {
+  font-size: 24px;
+  margin-right: 4px;
+}
+.li-para {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 4px;
+}
+.salary-para {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 14px;
+}
+.hr-cont {
+  display: flex;
+}
+.hr-line {
+  height: 2px;
+  color: #64748b;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  margin-left: 18px;
+  margin-right: 16px;
+}
+.des-cont {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.des-head {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+.des-para {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .card {
+    width: 100%;
+    padding: 6px;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo-company {
+    width: 90px;
+    height: 90px;
+  }
+  .title-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .head {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .rating-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 3px;
+  }
+  .star {
+    color: #fbbf24;
+    margin-right: 5px;
+  }
+  .rating {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 0px;
+  }
+
+  .job-details-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .ul-cont {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    padding-left: 14px;
+    margin-top: 1px;
+  }
+
+  .details-li {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    align-items: center;
+    margin-right: 14px;
+  }
+  .location {
+    font-size: 18px;
+    margin-right: 4px;
+  }
+
+  .location-2 {
+    font-size: 20px;
+    margin-right: 4px;
+  }
+  .li-para {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+  .salary-para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 14px;
+  }
+  .hr-cont {
+    display: flex;
+  }
+  .hr-line {
+    height: 2px;
+    color: #64748b;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .des-cont {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .des-head {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .des-para {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+}

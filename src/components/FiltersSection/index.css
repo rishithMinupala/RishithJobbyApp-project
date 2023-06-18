@@ -1,0 +1,119 @@
+.filters-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  padding-top: 16px;
+  margin-right: 16px;
+  width: 30%;
+}
+@media screen and (max-width: 767px) {
+  .filters-cont {
+    width: 100%;
+  }
+}
+.profile-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.retry-button {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-width: 0px;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: 14px;
+}
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.profile-image {
+  height: 50px;
+  width: 50px;
+}
+.profile-head {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #6366f1;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.profile-para {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+}
+.line-cont {
+  width: 100%;
+}
+.filter-line {
+  border-color: #475569;
+  border-style: solid;
+}
+.employment-cont {
+  font-family: 'Roboto';
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.employment-para {
+  font-weight: 500;
+  font-size: 16px;
+}
+.employment-options {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.employment-label {
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+.checkbox-style {
+  margin-right: 14px;
+  cursor: pointer;
+}
+.salary-cont {
+  font-family: 'Roboto';
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.salary-para {
+  font-weight: 500;
+  font-size: 16px;
+}
+.salary-options {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.salary-input {
+  margin-right: 14px;
+  cursor: pointer;
+}
+.salary-label {
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+.items-list-ul {
+  padding-left: 0px;
+}

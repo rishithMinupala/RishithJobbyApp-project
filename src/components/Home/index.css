@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+.home-container {
+  display: flex;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  margin-top: 0px;
+  padding: 30px;
+  justify-content: center;
+  flex-direction: column;
+}
+.home-content {
+  padding: 18px;
+  margin-left: 20px;
+}
+.home-head {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 66px;
+  color: #ffffff;
+}
+.home-para {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+  width: 60%;
+  color: #ffffff;
+  line-height: 2;
+}
+.home-button {
+  padding: 12px;
+  color: #ffffff;
+  background-color: #6366f1;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 17px;
+  border-width: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    min-height: 100vh;
+    height: 100vh;
+
+    background-size: cover;
+    margin-top: 0px;
+    padding: 15px;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .home-content {
+    padding: 10px;
+    margin-left: 8px;
+  }
+
+  .home-head {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  .home-para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    color: #ffffff;
+    line-height: 2;
+  }
+  .home-button {
+    padding: 8px;
+    color: #ffffff;
+    background-color: #6366f1;
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-size: 14px;
+    border-width: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .break {
+    display: none;
+  }
+}
